@@ -1,0 +1,154 @@
+@media screen and (max-width :576px) {
+    .nav-hamburger-menu{
+        display: block;
+   
+    }
+    .nav-hamburger-menu img{
+        width :35px;
+        height: 35px;
+        margin-left: 190px;
+    }
+    nav > ul{
+        display: none;
+        flex-direction: row;
+        align-items: center;
+    }
+    nav{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0px;
+       margin-left: 10px;
+       margin-right: 10px;
+       padding: 20px;
+    }
+    .header-container{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .header-button{
+        max-width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap:20px;
+       
+    }
+    .header-left h3{
+    margin-top: 0px;
+    }
+    .primary-button-1{
+         width: 169px;
+         height: 45px;
+         margin: auto;
+         margin-left: -27px;
+         margin-right: 8px;
+        
+    }
+    .primary-button-2{
+        width: 169px;
+        height: 45px;
+        margin: auto;
+    }
+    .header-image{
+        margin: 0 auto;
+    }
+    .box-one{
+        position: absolute;
+        width: 145.91px;
+        height: 74.09px;
+        left: 250px;
+        top: 910px;
+
+    }
+    .box-two{
+        /* Rectangle 17 */
+        position: absolute;
+        width: 155.74px;
+        height: 72.58px;
+        left: 35px;
+        top: 1100px;
+    }
+    .box-one h3{
+        margin-top: -12px;
+    }
+    .circle{
+        margin-top: 13px;
+    }
+    .box-two h3{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .second-title h3{
+        margin-top: -5px;
+    }
+    .second-title p{
+        margin-top: -29px;
+    }
+    .second-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .third-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .third-content{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .third-content button{
+        margin-left: 10px;
+        width: 90%;
+    }
+    .third-image img{
+        margin-left: 45px;
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+    .forth-header{
+        max-width: 90%;
+    }
+   .forth-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+   }
+   .bmi-chart{
+    max-width: 90%;
+   }
+   .bmi-calculator{
+   
+    max-width: 90%;
+   }
+   .fiifth-container{
+    max-width: 90%;
+   }
+   .fifth-header{
+    max-width: 100%;
+   }
+   .fifth-header h3{
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+   }
+   .fifth-team {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+     .footer-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+   }
+   .footer-one{
+    max-width: 90%;
+   }
+   hr{
+    max-width: 90%;
+    
+   }
+}

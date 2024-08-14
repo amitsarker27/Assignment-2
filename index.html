@@ -3,9 +3,321 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-Amit sarker
+  <header>
+    <nav>
+        <h3><span class="nav-title">Fitness corner</span></h3>
+        <ul>
+            <li><a href=""><span class="home">Home</span></a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+         <div class="nav-hamburger-menu">
+            <img src="./images/ham.png" >
+        </div> 
+    </nav>
+    <div class="header-container">
+        <div class="header-left">
+            <h3>Get body in <br><span class="shape"> shape</span> & stay<br> healthy</h3>
+            <p> A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+            <div class="header-buttons">
+                <button class="primary-button-1">Join Club Now!</button>
+                <button class="primary-button-2">Download App</button>
+            </div>
+        </div>
+       
+        <div class="header-image">
+          <img src="./images/Images 2.png">
+           
+        </div>
+        
+    </div>
+    <div class="box-one">
+        <h3>500+</h3>
+        <p>Free Workout Videos</p>
+    </div>
+    <div class="box-two">
+      <div class="circle"></div>
+       <div>
+        <h3>350+</h3>
+        <p>Video Tutorials</p>
+       </div>
+  </header>
+  <main>
+   <section class="second">
+    <div class="second-container">
+        <div class="second-title">
+            <h3>
+                Change Your Habits
+            </h3>
+            <p>
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or<br> access to a gym.
+            </p>
+        </div>
+        <div class="second-boxes">
+            <div class="exercise">
+               <div class="second-image">
+                     <img src="./images/image 3.png" alt="">
+               </div>
+               <div class="second-content">
+                    <h3>
+                        Movement
+                   </h3>
+                   <p>
+                    Movement builds strength, endurance, and overall health.
+                   </p>
+               </div>
+            </div>
+            <div class="exercise">
+                <div class="second-image">
+                    <img src="./images/image 2.png" alt="">
+                </div>
+                <div class="second-content">
+                    <h3>
+                        Time
+                    </h3>
+                    <p>
+                        Time in the gym fosters muscle growth and fat loss.
+                    </p>
+                </div>
+             </div>
+             <div class="exercise">
+                <div class="second-image">
+                    <img src="./images/image 4.png" alt="">
+                </div>
+                <div class="second-content">
+                     <h3>
+                          Practice
+                     </h3>
+                     <p>
+                        Practice is key to muscle growth and achieving fitness goals. 
+                     </p>
+                </div>
+             </div>
+             <div class="exercise">
+                <div class="second-image">
+                    <img src="./images/image 5.png" alt="">
+                </div>
+                <div class="second-content">
+                     <h3>
+                           Weight Loss
+                     </h3>
+                     <p>
+                        Weight loss demands consistent exercise and calorie deficit.
+                        
+                     </p>
+                </div>
+             </div>
+            
+        </div>
+    </div>
+   </section>
+   <section class="third">
+     <div class="third-container">
+        <div class="third-content">
+          <h3>
+            Run an Extra Mile Easily
+          </h3>
+          <p>
+            Running is a powerful cardio exercise boosting heart health, endurance, and calorie burn. It strengthens muscles, improves mood, and reduces stress.
+          </p>
+          <button class="primary-button-one">
+            Join Now
+          </button>
+        </div>
+        <div class="third-image">
+            <img src="./images/run.jpg" alt="">
+        </div>
+     </div>
+   </section>
+   <section class="forth">
+    <div class="forth-header">
+        <h3>
+            BMI Calculator
+        </h3>
+        <p>
+            A BMI calculator quickly estimates body fat based on height and weight, helping assess health risks related to weight.
+        </p>
+    </div>
+    <div class="forth-two">
+    <div class="forth-container">
+        <div class="bmi-chart">
+            <h3>
+                BMI Calculator Chart
+            </h3>
+            <table border="border: 1px solid rgba(255, 255, 255, 0.1);">
+                <tr class="table-header">
+                    <th>BMI</th>
+                    <th>Weight Status</th>
+                </tr>
+                <tr class="table-content">
+                    <td>Below 18.5</td>
+                    <td>Underweight</td>
+                </tr>
+                <tr class="table-content">
+                    <td>18.5 - 24.9</td>
+                    <td>Healthy</td>
+                </tr>
+                <tr class="table-content">
+                    <td>25.0 - 29.9</td>
+                    <td>Overweight</td>
+                </tr>
+                <tr class="table-content">
+                    <td>30.0 - and Above</td>
+                    <td>Obese</td>
+                </tr>
+            </table>
+        
+        </div>
+        <div class="bmi-calculator">
+           <h3>Calculate your BMI</h3>
+           <p>Calculating BMI is important for assessing body fat, identifying potential health risks, and guiding weight management and health strategies.</p>
+           <form class="bmi-form">
+            <div class="input-one">
+                <input type="number" name="height" id="height" placeholder="Height/cm">
+                <input type="number" name="weight" id="weight" placeholder="Weight/kg">
+            </div>
+            <div class="input-one">
+                <input type="number" name="age" id="age" placeholder="Age">
+                <select id="sex" name="sex">
+                    <option value="sex">Sex</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="input-two"> 
+                <select id="activity" name="activity">
+                    <option value="">Select an activity factor:</option>
+                    <option value="Bulking">Bulking</option>
+                    <option value="general_fitness">For general fitness</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </form>
+          <div>
+             <!-- <input class="primary-button-one" type="submit" value="Calculate"> -->
+              <button class="primary-button-1">
+                Calculate
+              </button>  
+          </div>
+        </div>
+    </div>
+    </div>
+   </section>
+   <section class="fifth">
+        <div class="fifth-container">
+            <div class="fifth-header">
+                <h3>
+                    Meet Our Team
+                </h3>
+                <p>
+                    A perfect gym team fosters motivation, camaraderie, and accountability, helping members achieve fitness goals through collective support and shared effort.
+                </p>
+            </div>
+            <div class="fifth-team">
+                <div class="member">
+                    <div class="member-img">
+                         <img src="./images/trainer1.png" alt="">
+                    </div>
+                    <div class="overlay">
+                        <h3>Jerome Bell</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="./images/trainer2.png" alt="">
+                    </div>
+                   <div class="overlay">
+                    <h3>Cameroon William</h3>
+                    <p>Trainer</p>
+                   </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="./images/trainer3.png" alt="">
+                    </div>
+                    <div class="overlay">
+                        <h3>Darell Steward</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="./images/trainer4.png" alt="">
+                    </div>
+                    <div class="overlay">
+                        <h3>Diane Russel</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="./images/trainer5.png" alt="">
+                    </div>
+                    <div class="overlay">
+                        <h3>Cody Fiser</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="./images/trainer6.png" alt="">
+                    </div>
+                    <div class="overlay">
+                        <h3>Theresa Webb</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+           </div>
+        </div>
+   </section>
+  </main>
+  <footer>
+       <div class="footer-container">
+          <div class="footer-one">
+             <h3>
+                <span class="nav-title">Fitness Gym</span>
+             </h3>
+             <p>
+                Join our gym to boost your fitness, improve mental health, build strength, and connect with a supportive community.It's a dedicated space for achieving health goals, reducing stress, and building strength in a motivating environment.
+             </p>
+          </div>
+          <div class="footer-two">
+              <h3 class="footer-h">
+                  Get Started
+              </h3>
+              <ul type="none">
+                <li>Service</li>
+                <li>Contact Us</li>
+                <li>Afiliate Program</li>
+                <li>About Us</li>
+              </ul>
+          </div>
+          <div class="footer-two">
+            <h3 class="footer-h">
+                Get Started
+            </h3>
+            <ul type="none">
+                <li>Fitness</li>
+                <li>Platform</li>
+                <li>Workout Library</li>
+                <li>App Design</li>
+              </ul>
+          </div>
+       </div>
+       <hr>
+      <div class="footer-last">
+        <p><small>All right reserved @Fitness Gym 2024</small></p>
+      </div>
+  </footer>
 </body>
 </html>
